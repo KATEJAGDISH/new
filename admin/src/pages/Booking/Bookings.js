@@ -15,7 +15,7 @@ import Select from '@mui/material/Select';
 import FormControl from '@mui/material/FormControl';
 
 function Bookings() {
-    const url = "http://localhost:4000"; 
+    const url = "https://newcar-vem1.onrender.com"; 
     const [list, setList] = useState([]);
 
     const fetchList = async () => {
